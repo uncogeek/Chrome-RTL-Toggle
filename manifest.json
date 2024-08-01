@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "RTL Converter",
+  "version": "1.2",
+  "description": "Toggles page text direction between LTR and RTL",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
